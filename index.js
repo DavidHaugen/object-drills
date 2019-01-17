@@ -22,3 +22,17 @@
 // for (const item in fooObj){
 //   console.log(`${item}: ${fooObj[item]}`);
 // }
+
+let hobbitEats = {
+  meals: [
+    'breakfast',
+    'second breakfast',
+    'elevenses',
+    'lunch',
+    'afternoon tea',
+    'dinner',
+    'supper'
+  ]
+};
+
+console.log(hobbitEats.meals[3]);
